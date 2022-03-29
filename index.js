@@ -5,7 +5,7 @@ const apiRouter = require('./routes/api');
 const sequelize = require('./database/db');
 
 const app = express();
-
+const port = process.env.PORT || 3000
 
 require('./database/db');
 
@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
     res.send('test')
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Server starter');
 
     //conectar a la base
