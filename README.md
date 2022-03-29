@@ -18,6 +18,8 @@ Y Login de usuario en  '/auth/login'. Le sigue la creacion de token para habilit
 - La aplicacion esta subida a https://challenge-eso-es.herokuapp.com/ ;
 - El repositorio publico se encuentra en https://github.com/jnahuel46/Challenge-EsoEs ;
 
+## PATH LOCAL http://localhost:3000/api/projects ## 
+## PATH WEB https://challenge-eso-es.herokuapp.com/api/projects ## 
 ## PARA TODAS LAS PETICIONES HAY QUE USAR EL USER-TOKEN EN LOS HEADERS, EL TOKEN SE OBTIENE UNA VEZ REALIZADO EL LOGIN ##
 ## INSTALAR TOAS LAS DEPENDENCIAS CON NPM INSTALL Y LUEGO EJECUTAR 'node .\index.js' O 'nodemon.\index.js'##
 
